@@ -9,11 +9,13 @@ struct Node{
 
 class Stack{
 public:
+  // bool check(int a);
   Stack();//Constructor
   void Pop();
   void Push(string Brett);
   void input(string Armando);
   void Print();
+  void Menu(int& end);
 private:
   Node* Nucleus;
 };

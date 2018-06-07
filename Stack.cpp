@@ -1,5 +1,7 @@
 #include<iostream>
 #include "Stack.h"
+#include"Bob.cpp"
+#include<cctype>
 
 using namespace std;
 
@@ -8,10 +10,7 @@ Stack B;
 int end;
 string bob;
 do {
-  B.input(bob);
-  cout<<"\nEnter -1 to end: ";
-  cin>>end;
-} while(end != -1);
-
+B.Menu(end);
+} while(end != 4);
   return 0;
 }
