@@ -1,5 +1,4 @@
 #include"Stack.h"
-#include<cctype>
 Stack::Stack(){
   Nucleus=NULL;
 }

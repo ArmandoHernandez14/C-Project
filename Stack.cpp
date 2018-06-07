@@ -1,7 +1,6 @@
 #include<iostream>
 #include "Stack.h"
 #include"Bob.cpp"
-#include<cctype>
 
 using namespace std;
 
