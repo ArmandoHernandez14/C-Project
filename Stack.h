@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 struct Node{
-  string Brett;
+  string str;
   Node* Next;
 };
 
@@ -11,13 +11,17 @@ class Stack{
 public:
   // bool check(int a);
   Stack();//Constructor
+  string top();
   void Pop();
-  void Push(string Brett);
-  void input(string Armando);
+  int size();
+  void Push(string str);
+  // void input(string str2);
+  bool empty();
+  //Returns true if object is empty
   void Print();
-  void Menu(int& end);
+//  void Menu(int& end);
 private:
-  Node* Nucleus;
+  Node* head;
 };
 
 #endif
